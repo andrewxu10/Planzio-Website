@@ -1,0 +1,820 @@
+@import url(http://fonts.googleapis.com/css?family=Muli);
+/* line 1, ../../app/assets/stylesheets/localini/global.css.sass */
+html {
+  overflow-y: scroll;
+}
+
+/* line 6, ../../app/assets/stylesheets/localini/global.css.sass */
+.clearfix {
+  *zoom: 1;
+}
+/* line 38, ../../vendor/bundle/ruby/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 9, ../../app/assets/stylesheets/localini/global.css.sass */
+.fwnone, .none {
+  display: none !important;
+}
+
+/* line 12, ../../app/assets/stylesheets/localini/global.css.sass */
+.fwhidden {
+  visibility: hidden;
+}
+
+/* line 15, ../../app/assets/stylesheets/localini/global.css.sass */
+.table-stretch {
+  width: 100%;
+}
+
+/* line 18, ../../app/assets/stylesheets/localini/global.css.sass */
+.table-right {
+  margin-left: auto;
+  margin-right: 0px;
+}
+
+/* line 23, ../../app/assets/stylesheets/localini/global.css.sass */
+.float-left {
+  display: inline;
+  float: left;
+}
+
+/* line 26, ../../app/assets/stylesheets/localini/global.css.sass */
+.float-right {
+  display: inline;
+  float: right;
+}
+
+/* line 29, ../../app/assets/stylesheets/localini/global.css.sass */
+.offscreen {
+  position: absolute;
+  left: -9999em;
+}
+
+/* line 66, ../../app/assets/stylesheets/localini/global.css.sass */
+body {
+  background: white;
+  font: inherit;
+  font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+  font-size: 13px;
+  color: #333333;
+}
+
+/* line 70, ../../app/assets/stylesheets/localini/global.css.sass */
+input, select, option, textarea {
+  font: inherit;
+  font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+  font-size: 13px;
+  color: #333333;
+}
+
+/* line 73, ../../app/assets/stylesheets/localini/global.css.sass */
+a {
+  color: #3b5998;
+  outline-style: none;
+  text-decoration: none;
+}
+/* line 77, ../../app/assets/stylesheets/localini/global.css.sass */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 81, ../../app/assets/stylesheets/localini/global.css.sass */
+textarea {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 84, ../../app/assets/stylesheets/localini/global.css.sass */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+/* line 88, ../../app/assets/stylesheets/localini/global.css.sass */
+.default_h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* line 97, ../../app/assets/stylesheets/localini/global.css.sass */
+.unstyled_link {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+}
+/* line 6, ../../vendor/bundle/ruby/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_unstyled-link.scss */
+.unstyled_link:active, .unstyled_link:focus {
+  outline: none;
+}
+
+/* line 100, ../../app/assets/stylesheets/localini/global.css.sass */
+.ellipsis_no_wrap {
+  white-space: nowrap;
+  overflow: hidden;
+  -ms-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+
+/* line 103, ../../app/assets/stylesheets/localini/global.css.sass */
+.block_button {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 107, ../../app/assets/stylesheets/localini/global.css.sass */
+.float-left {
+  display: inline;
+  float: left;
+}
+
+/* line 110, ../../app/assets/stylesheets/localini/global.css.sass */
+.bull {
+  color: #999999 !important;
+  font-size: 11px !important;
+  font-weight: normal !important;
+}
+
+/* line 115, ../../app/assets/stylesheets/localini/global.css.sass */
+.button {
+  white-space: nowrap;
+  border-width: 1px;
+}
+/* line 119, ../../app/assets/stylesheets/localini/global.css.sass */
+.button.cancel {
+  border-width: 1px;
+}
+/* line 123, ../../app/assets/stylesheets/localini/global.css.sass */
+.button > i {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  background-image: url("/images/close-icon.png");
+  background-repeat: no-repeat;
+  min-width: 16px;
+  width: auto !important;
+  width: 16px;
+  min-height: 16px;
+  height: auto !important;
+  height: 16px;
+  margin-left: 4px;
+  margin-right: -4px;
+  vertical-align: -4px;
+}
+/* line 132, ../../app/assets/stylesheets/localini/global.css.sass */
+.button > i:hover {
+  background-color: black;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=20);
+  opacity: 0.2;
+}
+
+/* line 13, ../../app/assets/stylesheets/home.css.sass */
+html, body {
+  font-family: "Muli", sans-serif;
+  font-size: 14px;
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #ededed;
+}
+
+/* line 22, ../../app/assets/stylesheets/home.css.sass */
+html.application {
+  background: none;
+}
+
+/* line 24, ../../app/assets/stylesheets/home.css.sass */
+html {
+  background: url(http://cdn.localini.com/assets/20140415/bg-9affeda4299a68c49bf3e2cb97b84e47.png) no-repeat center center fixed;
+  background-color: #fafafa;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+
+/* line 32, ../../app/assets/stylesheets/home.css.sass */
+a {
+  color: #666666;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* line 37, ../../app/assets/stylesheets/home.css.sass */
+ul {
+  list-style: disc;
+}
+
+/* line 40, ../../app/assets/stylesheets/home.css.sass */
+.topBar {
+  margin: 0 0 0 0;
+  padding: 5px;
+  height: 40px;
+  background-color: #b341ea;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 48, ../../app/assets/stylesheets/home.css.sass */
+.topBar .logo {
+  float: left;
+  margin-left: 20px;
+}
+/* line 51, ../../app/assets/stylesheets/home.css.sass */
+.topBar .login {
+  color: white;
+  font-weight: 800;
+  float: right;
+  margin: 5px 15px 0px 0px;
+}
+/* line 56, ../../app/assets/stylesheets/home.css.sass */
+.topBar .login a {
+  color: white;
+}
+
+/* line 59, ../../app/assets/stylesheets/home.css.sass */
+.footer {
+  height: 90px;
+  max-height: 90px;
+}
+
+/* line 63, ../../app/assets/stylesheets/home.css.sass */
+.login-container {
+  text-align: center;
+}
+
+@media screen and (min-device-width: 0px) and (max-device-width: 450px) {
+  /* line 69, ../../app/assets/stylesheets/home.css.sass */
+  .login .name {
+    display: none;
+  }
+}
+/* line 74, ../../app/assets/stylesheets/home.css.sass */
+#border-container {
+  height: 100%;
+  background-color: red;
+  top: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-left: 2px solid #c8c8c8;
+  border-right: 2px solid #c8c8c8;
+  border-bottom: 2px solid #c8c8c8;
+}
+
+/* line 87, ../../app/assets/stylesheets/home.css.sass */
+.content {
+  min-height: 100%;
+  width: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom: -90px;
+}
+
+/* line 95, ../../app/assets/stylesheets/home.css.sass */
+#content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  background-color: #ededed;
+  overflow-y: scroll;
+}
+/* line 103, ../../app/assets/stylesheets/home.css.sass */
+#content-container #list, #content-container #plan {
+  max-width: 500px;
+  min-width: 380px;
+  margin: auto;
+  background-color: white;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(50, 50, 50, 0.3);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(50, 50, 50, 0.3);
+  box-shadow: 0px 0px 20px 0px rgba(50, 50, 50, 0.3);
+}
+
+/* line 115, ../../app/assets/stylesheets/home.css.sass */
+#header {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 5px;
+}
+/* line 120, ../../app/assets/stylesheets/home.css.sass */
+#header h1 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+/* line 124, ../../app/assets/stylesheets/home.css.sass */
+#owner {
+  display: inline-block;
+  margin: auto;
+}
+/* line 127, ../../app/assets/stylesheets/home.css.sass */
+#owner #info {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  margin-left: 10px;
+}
+/* line 131, ../../app/assets/stylesheets/home.css.sass */
+#owner #image {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+}
+
+/* line 137, ../../app/assets/stylesheets/home.css.sass */
+.toolbar {
+  background-color: #ededee;
+  height: 50px;
+  text-align: center;
+}
+/* line 141, ../../app/assets/stylesheets/home.css.sass */
+.toolbar .list-stats-box, .toolbar .section {
+  font-weight: 800;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 33%;
+  text-align: center;
+}
+/* line 146, ../../app/assets/stylesheets/home.css.sass */
+.toolbar .list-stats-box .yes, .toolbar .list-stats-box .no, .toolbar .list-stats-box .maybe, .toolbar .section .yes, .toolbar .section .no, .toolbar .section .maybe {
+  display: inline-block;
+  border-radius: 3px;
+  padding: 8px 15px 8px 15px;
+  width: 100px;
+  font-weight: 400;
+  background-color: #f9f9f9;
+}
+/* line 155, ../../app/assets/stylesheets/home.css.sass */
+.toolbar .list-stats-box .yes, .toolbar .section .yes {
+  color: #51b017;
+}
+/* line 157, ../../app/assets/stylesheets/home.css.sass */
+.toolbar .list-stats-box .no, .toolbar .section .no {
+  color: #c42726;
+}
+/* line 159, ../../app/assets/stylesheets/home.css.sass */
+.toolbar .list-stats-box .maybe, .toolbar .section .maybe {
+  color: #eb7f13;
+}
+/* line 162, ../../app/assets/stylesheets/home.css.sass */
+.toolbar .list-stats-box .yes.active, .toolbar .section .yes.active {
+  background-color: #51b017;
+  color: white;
+}
+/* line 165, ../../app/assets/stylesheets/home.css.sass */
+.toolbar .list-stats-box .no.active, .toolbar .section .no.active {
+  background-color: #c42726;
+  color: white;
+}
+/* line 168, ../../app/assets/stylesheets/home.css.sass */
+.toolbar .list-stats-box .maybe.active, .toolbar .section .maybe.active {
+  background-color: #eb7f13;
+  color: white;
+}
+
+/* line 175, ../../app/assets/stylesheets/home.css.sass */
+#list-items {
+  height: 100%;
+}
+/* line 177, ../../app/assets/stylesheets/home.css.sass */
+#list-items ol, #list-items li {
+  margin-left: 0;
+  padding-left: 1px;
+}
+/* line 180, ../../app/assets/stylesheets/home.css.sass */
+#list-items ol {
+  list-style: none;
+  list-style-position: inside;
+}
+/* line 184, ../../app/assets/stylesheets/home.css.sass */
+#list-items ol li.selected {
+  border-left: 5px solid #b341ea;
+}
+/* line 186, ../../app/assets/stylesheets/home.css.sass */
+#list-items ol li {
+  font-weight: 400;
+  min-height: 30px;
+  border-bottom: 1px solid #e5eae4;
+  padding-left: 10px;
+}
+/* line 191, ../../app/assets/stylesheets/home.css.sass */
+#list-items ol li.area {
+  height: 30px;
+  padding-left: 20px;
+}
+
+/* line 195, ../../app/assets/stylesheets/home.css.sass */
+.clickable {
+  cursor: pointer;
+}
+
+/* line 198, ../../app/assets/stylesheets/home.css.sass */
+.place-tile {
+  display: table-cell;
+  vertical-align: middle;
+  height: 80px;
+}
+/* line 203, ../../app/assets/stylesheets/home.css.sass */
+.place-tile .place-details .image {
+  width: 50px;
+  height: 50px;
+  float: left;
+  border: 1px solid #e5eae4;
+}
+/* line 208, ../../app/assets/stylesheets/home.css.sass */
+.place-tile .place-details .image img {
+  width: 50px;
+  height: 50px;
+}
+/* line 211, ../../app/assets/stylesheets/home.css.sass */
+.place-tile .place-details .place-info {
+  width: 70%;
+  float: left;
+  margin-left: 20px;
+}
+/* line 215, ../../app/assets/stylesheets/home.css.sass */
+.place-tile .place-details .place-info .title {
+  font-size: 18px;
+  font-weight: 400;
+}
+/* line 218, ../../app/assets/stylesheets/home.css.sass */
+.place-tile .place-details .place-info .address {
+  margin: 0 0 0 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: gray;
+}
+
+/* line 224, ../../app/assets/stylesheets/home.css.sass */
+.share {
+  text-align: center;
+  margin: 20px 0 0 0;
+  height: 50px;
+}
+/* line 228, ../../app/assets/stylesheets/home.css.sass */
+.share div {
+  display: inline-block;
+  width: 107px;
+  height: 20px;
+  margin-right: 10px;
+  vertical-align: top;
+}
+
+/* line 235, ../../app/assets/stylesheets/home.css.sass */
+#plan {
+  background-color: white;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(50, 50, 50, 0.3);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(50, 50, 50, 0.3);
+  box-shadow: 0px 0px 20px 0px rgba(50, 50, 50, 0.3);
+}
+/* line 241, ../../app/assets/stylesheets/home.css.sass */
+#plan #plan-header {
+  padding: 20px 0 20px 0;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #ededee;
+}
+/* line 246, ../../app/assets/stylesheets/home.css.sass */
+#plan #plan-header h1 {
+  text-align: center;
+}
+/* line 249, ../../app/assets/stylesheets/home.css.sass */
+#plan h2, #plan h3 {
+  display: block;
+  width: 100%;
+  padding: 10px 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 256, ../../app/assets/stylesheets/home.css.sass */
+#plan h3 {
+  background-color: #f0f0f0;
+}
+
+/* line 262, ../../app/assets/stylesheets/home.css.sass */
+.plan-info {
+  font-size: 16px;
+}
+/* line 264, ../../app/assets/stylesheets/home.css.sass */
+.plan-info .label {
+  font-weight: 800;
+}
+/* line 266, ../../app/assets/stylesheets/home.css.sass */
+.plan-info ol, .plan-info li {
+  padding-left: 0px;
+  margin: 0;
+}
+/* line 269, ../../app/assets/stylesheets/home.css.sass */
+.plan-info ol {
+  list-style: none;
+  list-style-position: inside;
+}
+/* line 272, ../../app/assets/stylesheets/home.css.sass */
+.plan-info ol li.selected {
+  border-left: 5px solid #b341ea;
+}
+/* line 274, ../../app/assets/stylesheets/home.css.sass */
+.plan-info ol li {
+  font-weight: 400;
+  height: 80px;
+  padding-left: 20px;
+  border-bottom: 1px solid #ededee;
+}
+/* line 279, ../../app/assets/stylesheets/home.css.sass */
+.plan-info ol li .place-tile {
+  width: 100%;
+}
+/* line 281, ../../app/assets/stylesheets/home.css.sass */
+.plan-info ol li .details {
+  width: 500px;
+}
+/* line 283, ../../app/assets/stylesheets/home.css.sass */
+.plan-info ol li .time, .plan-info ol li .website, .plan-info ol li .details {
+  display: table-cell;
+  vertical-align: middle;
+  height: 80px;
+}
+
+/* line 291, ../../app/assets/stylesheets/home.css.sass */
+.follow, .following {
+  border-radius: 3px;
+  padding: 8px 15px 8px 15px;
+}
+
+/* line 295, ../../app/assets/stylesheets/home.css.sass */
+.follow {
+  background-color: #b341ea;
+  color: white;
+}
+
+/* line 299, ../../app/assets/stylesheets/home.css.sass */
+.following {
+  background-color: #f9f9f9;
+}
+
+/* line 303, ../../app/assets/stylesheets/home.css.sass */
+.rsvp ul, .rsvp li {
+  padding-left: 0px;
+  margin: 0;
+}
+/* line 306, ../../app/assets/stylesheets/home.css.sass */
+.rsvp ul {
+  width: 100%;
+  overflow: hidden;
+}
+/* line 310, ../../app/assets/stylesheets/home.css.sass */
+.rsvp ul li {
+  line-height: 1.5em;
+  min-height: 60px;
+  float: left;
+  display: inline;
+  width: 49%;
+}
+/* line 320, ../../app/assets/stylesheets/home.css.sass */
+.rsvp ul li div {
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  height: 60px;
+  padding-left: 10px;
+}
+/* line 327, ../../app/assets/stylesheets/home.css.sass */
+.rsvp ul li div .img {
+  width: 40px;
+  height: 50px;
+}
+/* line 331, ../../app/assets/stylesheets/home.css.sass */
+.rsvp ul li div .name {
+  height: 50px;
+}
+
+/* line 336, ../../app/assets/stylesheets/home.css.sass */
+.comments {
+  background-color: #ededee;
+}
+/* line 338, ../../app/assets/stylesheets/home.css.sass */
+.comments ul, .comments li {
+  padding-left: 0px;
+  margin: 0;
+}
+/* line 341, ../../app/assets/stylesheets/home.css.sass */
+.comments ul {
+  width: 100%;
+  overflow: hidden;
+}
+/* line 345, ../../app/assets/stylesheets/home.css.sass */
+.comments ul li {
+  min-height: 60px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+}
+/* line 350, ../../app/assets/stylesheets/home.css.sass */
+.comments ul li .post-tile {
+  background-color: white;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 10px 20px 10px 20px;
+  padding: 10px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 3px 0px rgba(50, 50, 50, 0.3);
+  -moz-box-shadow: 0px 0px 3px 0px rgba(50, 50, 50, 0.3);
+  box-shadow: 0px 0px 3px 0px rgba(50, 50, 50, 0.3);
+}
+/* line 361, ../../app/assets/stylesheets/home.css.sass */
+.comments ul li .post-tile .post-title img {
+  vertical-align: middle;
+}
+/* line 365, ../../app/assets/stylesheets/home.css.sass */
+.comments ul li .post-tile .post-content {
+  margin: 10px 10px 10px 40px;
+}
+
+/* line 370, ../../app/assets/stylesheets/home.css.sass */
+.start {
+  min-height: 100%;
+}
+
+/* line 373, ../../app/assets/stylesheets/home.css.sass */
+hbox, vbox {
+  display: block;
+  padding: 0;
+  margin: 0;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* line 398, ../../app/assets/stylesheets/home.css.sass */
+vbox {
+  display: box;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-pack: start;
+  -webkit-box-align: stretch;
+  -webkit-box-sizing: border-box;
+  min-height: 100%;
+  -webkit-box-orient: vertical;
+}
+/* line 390, ../../app/assets/stylesheets/home.css.sass */
+vbox > * {
+  -webkit-box-flex: 1;
+}
+
+/* line 409, ../../app/assets/stylesheets/home.css.sass */
+.points ul li {
+  line-height: 40px;
+  height: 40px;
+  vertical-align: middle;
+}
+
+/* line 414, ../../app/assets/stylesheets/home.css.sass */
+hbox {
+  display: box;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-pack: start;
+  -webkit-box-align: stretch;
+  -webkit-box-sizing: border-box;
+  min-width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+}
+/* line 390, ../../app/assets/stylesheets/home.css.sass */
+hbox > * {
+  -webkit-box-flex: 1;
+}
+
+/* line 418, ../../app/assets/stylesheets/home.css.sass */
+vbox .spacer_fill, hbox .spacer_fill {
+  -webkit-box-flex: 10;
+}
+/* line 420, ../../app/assets/stylesheets/home.css.sass */
+vbox.start, hbox.start {
+  -webkit-box-align: start;
+}
+/* line 422, ../../app/assets/stylesheets/home.css.sass */
+vbox.stretch, hbox.stretch {
+  -webkit-box-align: stretch;
+}
+
+/* line 425, ../../app/assets/stylesheets/home.css.sass */
+.flex0 {
+  -webkit-box-flex: 0;
+  -moz-box-flex: 0;
+  -ms-box-flex: 0;
+  box-flex: 0;
+}
+
+/* line 427, ../../app/assets/stylesheets/home.css.sass */
+.flex1 {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -ms-box-flex: 1;
+  box-flex: 1;
+}
+
+/* line 429, ../../app/assets/stylesheets/home.css.sass */
+.flex2 {
+  -webkit-box-flex: 2;
+  -moz-box-flex: 2;
+  -ms-box-flex: 2;
+  box-flex: 2;
+}
+
+/* line 431, ../../app/assets/stylesheets/home.css.sass */
+.flex3 {
+  -webkit-box-flex: 3;
+  -moz-box-flex: 3;
+  -ms-box-flex: 3;
+  box-flex: 3;
+}
+
+/* line 433, ../../app/assets/stylesheets/home.css.sass */
+.flex4 {
+  -webkit-box-flex: 4;
+  -moz-box-flex: 4;
+  -ms-box-flex: 4;
+  box-flex: 4;
+}
+
+/* line 435, ../../app/assets/stylesheets/home.css.sass */
+.flex5 {
+  -webkit-box-flex: 5;
+  -moz-box-flex: 5;
+  -ms-box-flex: 5;
+  box-flex: 5;
+}
+
+/* line 437, ../../app/assets/stylesheets/home.css.sass */
+.flex6 {
+  -webkit-box-flex: 6;
+  -moz-box-flex: 6;
+  -ms-box-flex: 6;
+  box-flex: 6;
+}
+
+/* line 439, ../../app/assets/stylesheets/home.css.sass */
+.flex7 {
+  -webkit-box-flex: 7;
+  -moz-box-flex: 7;
+  -ms-box-flex: 7;
+  box-flex: 7;
+}
+
+/* line 441, ../../app/assets/stylesheets/home.css.sass */
+.flex8 {
+  -webkit-box-flex: 8;
+  -moz-box-flex: 8;
+  -ms-box-flex: 8;
+  box-flex: 8;
+}
+
+/* line 443, ../../app/assets/stylesheets/home.css.sass */
+.flex9 {
+  -webkit-box-flex: 9;
+  -moz-box-flex: 9;
+  -ms-box-flex: 9;
+  box-flex: 9;
+}
+
+/* line 445, ../../app/assets/stylesheets/home.css.sass */
+.flex10 {
+  -webkit-box-flex: 10;
+  -moz-box-flex: 10;
+  -ms-box-flex: 10;
+  box-flex: 10;
+}
+
+/* line 447, ../../app/assets/stylesheets/home.css.sass */
+.flex100 {
+  -webkit-box-flex: 100;
+  -moz-box-flex: 100;
+  -ms-box-flex: 100;
+  box-flex: 100;
+}
